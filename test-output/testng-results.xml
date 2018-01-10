@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_54.png'> <img src='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_54.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_56.png'> <img src='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_56.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_58.png'> <img src='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_58.png' height='100' width='100'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_11_00.png'> <img src='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_11_00.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12594" started-at="2018-01-10T05:10:50Z" finished-at="2018-01-10T05:11:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12594" started-at="2018-01-10T05:10:50Z" finished-at="2018-01-10T05:11:03Z">
+      <class name="com.netflix.POM_Netflix.homepage.TC0001_VerifyLoginWithInvalidCredentails">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.netflix.POM_Netflix.homepage.TC0001_VerifyLoginWithInvalidCredentails@21282ed8]" name="init" is-config="true" duration-ms="1164" started-at="2018-01-09T21:10:50Z" finished-at="2018-01-09T21:10:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="signIn()[pri:1, instance:com.netflix.POM_Netflix.homepage.TC0001_VerifyLoginWithInvalidCredentails@21282ed8]" name="signIn" duration-ms="1077" started-at="2018-01-09T21:10:52Z" finished-at="2018-01-09T21:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentails(java.lang.String, java.lang.String)[pri:2, instance:com.netflix.POM_Netflix.homepage.TC0001_VerifyLoginWithInvalidCredentails@21282ed8]" name="verifyLoginWithInvalidCredentails" duration-ms="1902" started-at="2018-01-09T21:10:53Z" data-provider="loginData" finished-at="2018-01-09T21:10:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D.saisankeerth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fdanlfans]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_54.png'> <img src='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_54.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentails -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentails(java.lang.String, java.lang.String)[pri:2, instance:com.netflix.POM_Netflix.homepage.TC0001_VerifyLoginWithInvalidCredentails@21282ed8]" name="verifyLoginWithInvalidCredentails" duration-ms="1984" started-at="2018-01-09T21:10:55Z" data-provider="loginData" finished-at="2018-01-09T21:10:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D.saisankeerth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gvnslkdfngb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_56.png'> <img src='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_56.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentails -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentails(java.lang.String, java.lang.String)[pri:2, instance:com.netflix.POM_Netflix.homepage.TC0001_VerifyLoginWithInvalidCredentails@21282ed8]" name="verifyLoginWithInvalidCredentails" duration-ms="1939" started-at="2018-01-09T21:10:57Z" data-provider="loginData" finished-at="2018-01-09T21:10:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D.saisankeerth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jgvskdg;kdf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_58.png'> <img src='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_10_58.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentails -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentails(java.lang.String, java.lang.String)[pri:2, instance:com.netflix.POM_Netflix.homepage.TC0001_VerifyLoginWithInvalidCredentails@21282ed8]" name="verifyLoginWithInvalidCredentails" duration-ms="1887" started-at="2018-01-09T21:10:59Z" data-provider="loginData" finished-at="2018-01-09T21:11:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D.saisankeerth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fnsdln]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_11_00.png'> <img src='C:\Users\abhim\eclipse-workspace\POM_Netflix\src\main\java\com\netflix\POM_Netflix\screenshot\InvalidLoginCredentials_09_01_2018_09_11_00.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentails -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.netflix.POM_Netflix.homepage.TC0001_VerifyLoginWithInvalidCredentails@21282ed8]" name="close" is-config="true" duration-ms="2090" started-at="2018-01-09T21:11:01Z" finished-at="2018-01-09T21:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.netflix.POM_Netflix.homepage.TC0001_VerifyLoginWithInvalidCredentails -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
