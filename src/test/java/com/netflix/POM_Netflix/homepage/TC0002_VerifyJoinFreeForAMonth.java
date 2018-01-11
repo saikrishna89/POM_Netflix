@@ -5,12 +5,15 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.netflix.POM_Netflix.pages.EntryPage;
 import com.netflix.POM_Netflix.pages.FirstStepChoosePlan;
 import com.netflix.POM_Netflix.pages.SignInPage;
 import com.netflix.POM_Netflix.testbase.TestBase;
+
+@Listeners(com.netflix.POM_Netflix.listeners.Listener.class)
 
 public class TC0002_VerifyJoinFreeForAMonth extends TestBase{
 	

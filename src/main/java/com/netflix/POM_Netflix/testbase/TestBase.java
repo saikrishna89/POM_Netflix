@@ -25,15 +25,15 @@ public class TestBase {
 	public Excel_Reader excelReader; 
 	
 	public void initAndStart() {
-	//	setUp("Chrome");
+		setUp("Chrome");
 		getUrl("http://www.netflix.com");
 	}
-	
+	/*
 	static{
 		setChromeDriver();
-		setFireFoxDriver();
+		//setFireFoxDriver();
 	}
-	
+	*/
 	public void setUp(String browser) {
 		if(browser.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/"+"chromedriver.exe");
@@ -42,15 +42,15 @@ public class TestBase {
 			driver.manage().window().maximize();
 		}
 	}
-	
+	/*
 	private static void setFireFoxDriver() {
 		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
-
-	private static void setChromeDriver() {
+*/
+	private void setChromeDriver() {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/drivers/"+"chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -88,4 +88,9 @@ public class TestBase {
 			e.printStackTrace();
 		}
 	}
+	
+	public void goBackToPreviousPage() {
+		driver.navigate().back();
+	}
+	
 }

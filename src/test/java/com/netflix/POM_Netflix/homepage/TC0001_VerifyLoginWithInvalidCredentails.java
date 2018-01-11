@@ -1,4 +1,4 @@
-package com.netflix.POM_Netflix.homepage;
+  package com.netflix.POM_Netflix.homepage;
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,8 +12,10 @@ import com.netflix.POM_Netflix.pages.EntryPage;
 import com.netflix.POM_Netflix.pages.SignInPage;
 import com.netflix.POM_Netflix.testbase.TestBase;
 
+@Listeners(com.netflix.POM_Netflix.listeners.Listener.class)
+
 public class TC0001_VerifyLoginWithInvalidCredentails extends TestBase{
-	
+		
 	@DataProvider(name = "loginData")
 	public String[][] getTestData(){
 		return getData("TestData", "LoginWithInvalidCredentials");
@@ -38,7 +40,7 @@ public class TC0001_VerifyLoginWithInvalidCredentails extends TestBase{
 		signInPage.enterPassword(password);
 		signInPage.loginWithCredentials();
 		Assert.assertEquals(signInPage.inCorrectPasswordError(), "Incorrect password. Please try again or you can reset your password.");
-		getScreenShot("InvalidLoginCredentials");
+		//getScreenShot("InvalidLoginCredentials");
 	}
 	
 	@AfterClass
