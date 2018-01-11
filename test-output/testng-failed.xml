@@ -5,7 +5,7 @@
     <classes>
       <class name="com.netflix.POM_Netflix.homepage.TC0003_VerifyLinksOnTheHomePage">
         <methods>
-          <include name="clickLinksOnTheHomePage" invocation-numbers="3 4 5"/>
+          <include name="clickLinksOnTheHomePage" invocation-numbers="0"/>
           <include name="close"/>
           <include name="init"/>
         </methods>
